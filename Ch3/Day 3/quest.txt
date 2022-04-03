@@ -1,0 +1,2 @@
+3. Explain, in your own words, why references can be useful in Cadence.
+References are useful in Cadence access data without having to actually have that data. For example, you can access resources without having to move them around.

@@ -1,0 +1,5 @@
+1. What does .link() do?
+.link() allows you to map a /storage/ path to /public/ or /private/.
+
+2. In your own words (no code), explain how we can use resource interfaces to only expose certain things to the /public/ path.
+If we have defined a resource interface that only exposes certain things, when we link the resource to the /public/ path we can specify that resource interface. By doing so we only expose the things defined in that resource interface rather than the whole resource. 

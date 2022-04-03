@@ -1,0 +1,8 @@
+1. What are the 5 Cadence Programming Language Pillars?
+Safety and Security, Clarity, Approachability, Developer Experience, and Resource Oriented Programming.
+
+2. In your opinion, even without knowing anything about the Blockchain or coding, why could the 5 Pillars be useful (you don't have to answer this for #5)?
+Safety and Security - ensure that users and developers can not perform malicious actions
+Clarity - easier for users to understand what the smart contract is doing
+Approachability - easy for new developers to get started
+Developer Experience - allows developers to be more productive

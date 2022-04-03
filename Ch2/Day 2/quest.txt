@@ -1,0 +1,8 @@
+1. Explain why we wouldn't call changeGreeting in a script.
+Scripts cannot change the data on the blockchain.
+
+2. What does the AuthAccount mean in the prepare phase of the transaction?
+It is the account that is signing the transaction.
+
+3. What is the difference between the prepare phase and the execute phase in the transaction?
+The prepare phase can access information in the AuthAccount. The execute phase cannot.

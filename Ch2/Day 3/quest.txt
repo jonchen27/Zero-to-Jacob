@@ -1,0 +1,20 @@
+3. Explain what the force unwrap operator ! does, with an example different from the one I showed you (you can just change the type).
+Force unwrap operator unwraps a variable of Optional type and returns the underlying type or Panics if the variable is nil.
+
+var myNFTs1: Int? = nil
+var myNFTs2: Int? = 3
+var unwrappedMyNFTs1: Int = myNFTs1! // Panic
+var unwrappedMyNFTs2: Int = myNFTs2! // 3
+
+
+4. Using this picture below, explain...
+
+What the error message means
+The type we are trying to return does not match the defined type of the return value
+
+Why we're getting this error
+The Dictionary returned a String? optional but the function returns a String
+
+How to fix it
+We should force-unwrap the optional to return a String
+	return thing[0x03]!

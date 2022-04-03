@@ -1,0 +1,5 @@
+1. What does "force casting" with as! do? Why is it useful in our Collection?
+Force casting allows us to downcast a variable to a more specific type. This is useful to ensure that we are only putting our specific type of NFT in the Collection.
+
+2. What does auth do? When do we use it?
+Auth marks a variable as eligble for downcasting. This enables us to downcast the generic type to our specific type in order to access our unique fields.
